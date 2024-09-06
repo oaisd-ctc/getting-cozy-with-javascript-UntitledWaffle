@@ -8,9 +8,17 @@
     <style>
         /* Nothing for now */
     </style>
+    <link rel="stylesheet" href="stles/main.css">
 </head>
 
 <body>
+    <div class="navbar">
+        <a class=active href="#"><i class="fa-fw-home">Home</a>
+        <a href="#"><i class="fa-fw fa-search"></i>Search</a>
+        <a href="#"><i class="fa-fw fa-envelope"></i>Contact</a>
+        <a href="#"><i class="fa-fw fa-user"></i>Login</a>
+    </div>
+
     <h1> Welcome User!</h1>
 
     <p>
@@ -63,7 +71,7 @@
 
     <p></p>
 
-    <p>
+    <p id="hide">
         Phasellus nec erat ut libero feugiat fermentum. Nullam ut libero nec tortor ullamcorper tempus id non quam.
         Mauris ut neque est. Curabitur condimentum, lorem sit amet fermentum ullamcorper, tortor erat volutpat eros, vel
         pharetra nisl dui non sapien. In fringilla eros vitae arcu volutpat, non tincidunt odio tempus.
@@ -87,12 +95,23 @@
         Entschlossenheit und den Mut, um die Herausforderungen der Gegenwart zu meistern und eine bessere Zukunft
         aufzubauen. Lassen Sie uns in diesem Geiste gemeinsam voranschreiten, mit Zuversicht und Hoffnung für die
         kommenden Tage.“
-
-
     </p>
 
+    <div class="Joebiden2">
+        <div class="Boebiden Cooper">Calhoun university</div>
+        <div class="Boebiden Cooper">Calculator</div>
+        <div class="Boebiden Cooper">Recreatestuff</div>
+        <div class="Boebiden Cooper">The Fixer</div>
+        <div class="Boebiden Cooper">Treasurehunt</div>
+        <div class="Boebiden Cooper">HobbiesLab</div>
+    </div>
+
+    <button type="button" class="button buttonHide" id="Hide">Hide stuff</button>
+    <button type="button" onclick="myFunction()"class="button buttonShow" id="Show">Show Stuff</button>
     <script>
-        /* JavaScript here*/
+        function myFunction() {
+            document.getElementById("hide").innerHTML = "Paragraph changed.";
+        }
     </script>
 
 </body>
