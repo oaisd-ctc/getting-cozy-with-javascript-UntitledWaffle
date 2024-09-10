@@ -1,1 +1,3 @@
-function Hide
+function Hide {
+    
+}
