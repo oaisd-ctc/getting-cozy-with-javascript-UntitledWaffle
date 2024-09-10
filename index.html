@@ -102,9 +102,60 @@
         <div class="Boebiden Cooper">Treasurehunt</div>
         <div class="Boebiden Cooper">HobbiesLab</div>
     </div>
+    <h2>Course Sign Up</h2>
+    <!-- Begin Form code Below -->
+    <div class="Flex-mox">
+        <div class="Flex-dox">
+            <h1>Sample From</h1>
+            <form class=Apollyon id="registration-form">
+                First name:<input type="text" name="firstname" required><br><br>
+                Middle name:<input type="text" name="middlename" required><br><br>
+                Last name:<input type="text" name="lastname" required><br><br>
+                E-mail: <input type="email" name="emailaddress" required>
+                <br><br>
+                <label for="Course">Choose a Course:</label>
+                <select id="Course" name="Course">
+                    <option value="Dalek">Dalek</option>
+                    <option value="Time-Lord">Time-Lord</option>
+                    <option value="Edgelord">Edgelord</option>
+                    <option value="Thermal-dynamic-baloon">Thermal-dynamic-baloon</option>
+                </select>
+                <br><br>
+                Start date:<input type="date" name="birthday" required>
+                <br>
+                <h3>Comment/questions:</h3>
+                <textarea name="message" rows="10" cols="30"></textarea>
+                <br><br>
+                <button type="submit" value="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- <button id="clear">Clear Table</button> (for advanced exploration only- see the bottom of index.js) -->
 
-    <button type="button" onclick="HideFunction()" class="button buttonHide">Hide stuff</button>
-    <button type="button" onclick="ShowFunction()" class="button buttonShow"> </button>
+    <!-- Begin Table code below -->
+    <table class="Apollyon" id="registration-table">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Middle Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Course Name</th>
+                <th>Start Date</th>
+                <th>Comments/Questions</th>
+            </tr>
+        </thead>
+        <tbody id="txt-color">
+        </tbody>
+    </table>
+
+
+    <script src="scripts/index.js" defer></script> <!-- Do not touch this line of code -->
+
+
+    <button type="button" onclick="HideFunction()" class="button buttonHide">Hide Stuff</button>
+    <button type="button" onclick="ShowFunction()" class="button buttonShow">Show Stuff</button>
+    <button tpye="button" onclick="ColorFuncky()" class="button buttonColor">Change Help</button>
     <script src="scripts/apps.js" defer></script> 
 </body>
 </html>
