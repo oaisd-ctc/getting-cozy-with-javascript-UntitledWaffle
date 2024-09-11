@@ -5,24 +5,15 @@ function ShowFunction() {
     document.getElementById("Hide").style.display = "block"
 }
 function ColorFuncky() {
-    document.getElementById("txt-color").style.color
-    const a = GetRandomNumber();
-    const b = GetRandomNumber();
-    const c = GetRandomNumer();
-    tbody.style.color = 'abc(${a}, ${b}, ${c})';
-
-    if (a > 220 || b > 220 || c > 220) {
-        tbody.style.color = "white";
-    }
+    let color = document.getElementById('txt-color').value;
+    document.getElementById('txtcolor').style.backgroundColor = color;
 }
 
 const form = document.getElementById("registration-form");
-
 const storedRegistrations = JSON.parse(localStorage.getItem('registrations') || '[]');
 storedRegistrations.forEach(registration => {
     addToTable(registration);
 });
-
 form.addEventListener("submit", (e) => {
     e.preventDefault();
 

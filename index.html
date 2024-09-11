@@ -69,7 +69,7 @@
 
     <p>WORM</p>
 
-    <p id="txt-color">
+    <p id="txtcolor">
         Phasellus nec erat ut libero feugiat fermentum. Nullam ut libero nec tortor ullamcorper tempus id non quam.
         Mauris ut neque est. Curabitur condimentum, lorem sit amet fermentum ullamcorper, tortor erat volutpat eros, vel
         pharetra nisl dui non sapien. In fringilla eros vitae arcu volutpat, non tincidunt odio tempus.
@@ -106,7 +106,7 @@
     <h2>Course Sign Up</h2>
     <div class="Flex-mox">
         <div class="Flex-dox">
-            <h1>Sample From</h1>
+            <h1>Sample Form</h1>
             <form class=Apollyon id="registration-form">
                 First name:<input type="text" name="firstname" required><br><br>
                 Middle name:<input type="text" name="middlename" required><br><br>
@@ -142,12 +142,18 @@
                 <th>Comments/Questions</th>
             </tr>
         </thead>
-        <tbody id="txt-color">
+        <tbody>
         </tbody>
     </table>
     <button type="button" onclick="HideFunction()" class="button buttonHide">Hide Stuff</button>
+
     <button type="button" onclick="ShowFunction()" class="button buttonShow">Show Stuff</button>
-    <button tpye="button" onclick="ColorFuncky()" class="button buttonColor">Change Color</button>
+
+    <input type="text" id="txt-color">
+
+    <input type="button" id="Java" onclick="ColorFuncky()" class="button buttonColor" value="Click to Change Color">Change
+        Color</input>
+
     <script src="scripts/apps.js" defer></script>
 </body>
 

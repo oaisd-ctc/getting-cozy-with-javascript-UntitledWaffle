@@ -118,6 +118,11 @@ p, h1, h2, h5, h3 {
     color: white;
 
   }
+  
+  .buttonColor:hover {
+    background-color: #72e6bb;
+    color: white;
+  }
 
   .Flex-mox {
     display: flex;
