@@ -1,13 +1,16 @@
 function HideFunction() {
     document.getElementById("Hide").style.display = "none"
 }
+
 function ShowFunction() {
     document.getElementById("Hide").style.display = "block"
 }
+
 function ColorFuncky() {
     let color = document.getElementById('txt-color').value;
     document.getElementById('txtcolor').style.backgroundColor = color;
 }
+
 
 const form = document.getElementById("registration-form");
 const storedRegistrations = JSON.parse(localStorage.getItem('registrations') || '[]');
@@ -43,4 +46,3 @@ function addToTable(data) {
         newRow.insertCell().innerText = value;
     });
 }
-

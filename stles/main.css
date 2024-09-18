@@ -43,7 +43,11 @@ body {
 }
 
 h3,
-p, h1, h2, h5, h3 {
+p,
+h1,
+h2,
+h5,
+h3 {
     color: aqua;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -82,7 +86,7 @@ p, h1, h2, h5, h3 {
         float: none;
         display: block;
         background-color: goldenrod;
-        color:aqua;
+        color: aqua;
     }
 }
 
@@ -91,14 +95,15 @@ p, h1, h2, h5, h3 {
         float: none;
         display: block;
         background-color: aqua;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
-    
+
 }
 
 .button {
-    background-color: #04AA6D; /* Green */
+    background-color: #04AA6D;
+    /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -106,25 +111,25 @@ p, h1, h2, h5, h3 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
 
-  .buttonHide:hover {
+.buttonHide:hover {
     background-color: #72e6bb;
     color: white;
-  }
+}
 
-  .buttonShow:hover {
+.buttonShow:hover {
     background-color: #72e6bb;
     color: white;
 
-  }
-  
-  .buttonColor:hover {
+}
+
+.buttonColor:hover {
     background-color: #72e6bb;
     color: white;
-  }
+}
 
-  .Flex-mox {
+.Flex-mox {
     display: flex;
     justify-content: center;
     flex-direction: column;
