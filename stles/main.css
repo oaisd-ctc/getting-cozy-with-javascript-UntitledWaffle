@@ -189,3 +189,23 @@ th {
     color: aquamarine;
     padding: 12px;
 }
+
+.Womp {
+    justify-content: center;
+    background-color: darkcyan;
+    border-radius: 50%;
+    padding: 4%;
+}
+
+.Womp2 {
+    justify-content: center;
+    background-color: darkcyan;
+    border-radius: 0;
+    padding: 4%;
+}
+
+.Womp3 {
+    justify-content: center;
+    background-color:darkcyan;
+    
+}
