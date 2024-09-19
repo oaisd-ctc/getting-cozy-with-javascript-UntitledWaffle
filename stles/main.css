@@ -206,6 +206,10 @@ th {
 
 .Womp3 {
     justify-content: center;
-    background-color:darkcyan;
+    width: 0;
+    height: 0;
+    border-left: 800px solid transparent;
+    border-right: 800px solid transparent;
+    border-bottom: 500px solid darkcyan;
     
 }

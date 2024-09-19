@@ -46,3 +46,4 @@ function addToTable(data) {
         newRow.insertCell().innerText = value;
     });
 }
+
