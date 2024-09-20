@@ -47,7 +47,9 @@ function addToTable(data) {
     });
 }
 
+// Selector
 const hapes = document.getElementById('hapes')
+// div
 const hape = document.getElementById('hape')
 
 hapes.addEventListener('change', () => {
@@ -55,15 +57,11 @@ hapes.addEventListener('change', () => {
 
     hape.className = '';
 
-    if (hapel === 'sqare') {
-        hape.classList.add('Sqare');
+    if (hapel === 'Sqare') {
+        hape.classList.add('Womp');
     } else if (hapel === 'Cice') {
-        hape.classList.add('Cice')
+        hape.classList.add('Womp2')
     } else if (hapel === 'Trigle') {
-        hape.classList.add('Trigle')
+        hape.classList.add('Womp3')
     }
-
-
-
-
 })
