@@ -47,3 +47,23 @@ function addToTable(data) {
     });
 }
 
+const hapes = document.getElementById('hapes')
+const hape = document.getElementById('hape')
+
+hapes.addEventListener('change', () => {
+    const hapel = hapes.value;
+
+    hape.className = '';
+
+    if (hapel === 'sqare') {
+        hape.classList.add('Sqare');
+    } else if (hapel === 'Cice') {
+        hape.classList.add('Cice')
+    } else if (hapel === 'Trigle') {
+        hape.classList.add('Trigle')
+    }
+
+
+
+
+})
